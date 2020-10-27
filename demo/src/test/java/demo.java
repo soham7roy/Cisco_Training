@@ -6,10 +6,10 @@ import org.testng.annotations.AfterMethod;
 
 public class demo {
 	WebDriver driver;
-	
+	String s="https://www.google.com/";
   @Test
   public void f() {
-	  driver.get("https://www.google.com/");
+	  driver.get(s);
   }
   @BeforeMethod
   public void beforeMethod() {
