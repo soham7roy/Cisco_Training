@@ -9,7 +9,7 @@ public class demo {
 	String s="https://www.google.com/";
   @Test
   public void f() {
-	  driver.get(s);
+	  driver.get("https://www.google.com/");
   }
   @BeforeMethod
   public void beforeMethod() {
